@@ -45,8 +45,22 @@ A **file compression and decompression tool** built using the **Huffman Coding a
 - Decompresses files back to their original content.
 - Provides output as `compressed.txt` and `decompressed.txt`.
 - Simple and efficient text file compression.
+  # C++ Plagiarism Checker
+
+## **OVERVIEW**
+
+A simple **C++ plagiarism checker** that compares two text files to detect plagiarism by analyzing and comparing the frequency of matching words. The program normalizes the text by removing punctuation and converting all words to lowercase before calculating a similarity score based on common word occurrences.
+
+## Features
+
+- Reads two text files and normalizes the content (lowercase, no punctuation).
+- Splits the text into individual words.
+- Calculates the similarity score based on common word frequency.
+- Provides the similarity percentage between the two files.
 
 ## Requirements
 
 - **C++11** or higher.
+
+
 
