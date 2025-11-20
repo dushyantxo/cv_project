@@ -90,3 +90,9 @@ Indexed dictionary to reduce memory usage
 
 File-based keyword loading/saving
 
+## CV → Repository Mapping
+
+- Dijkstra Pathfinding Visualizer → /dijkstra_pathFinder
+- File Zipper (Huffman Coding) → /filzipper
+- Social Feed Ranking Engine → /soc ranker
+- Autocomplete Engine → /word serch
