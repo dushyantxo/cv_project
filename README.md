@@ -62,5 +62,31 @@ A simple **C++ plagiarism checker** that compares two text files to detect plagi
 
 - **C++11** or higher.
 
+# Social Feed Ranking Engine (C++ | Graphs, Priority Queues)
 
+A simplified implementation of a social-media-style feed ranking algorithm inspired by Meta’s recommendation logic.
+## **OVERVIEW**
+The engine models users and their relationships using adjacency lists, and computes personalized feeds using:
+
+Engagement scoring
+
+Affinity scoring
+
+Recency scoring
+
+Min-heap based Top-K ranking
+Achieves O(N log K) efficiency across thousands of posts.
+
+# Autocomplete Engine (C++ | Trie, Min-Heaps, File I/O)
+## **OVERVIEW**
+
+A high-performance autocomplete/search suggestion engine using:
+
+Trie for prefix matching
+
+Per-node Top-K caching (O(|prefix| + K))
+
+Indexed dictionary to reduce memory usage
+
+File-based keyword loading/saving
 
